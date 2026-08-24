@@ -6,8 +6,8 @@
   --gold: #c9a227;
   --gold-dark: #a8861d;
   --gold-soft: #f4e9c8;
-  --ink: #26313a;
-  --muted: #55636e;
+  --ink: #202a33;
+  --muted: #3f4c57;
   --bg: #ffffff;
   --bg-alt: #f5f7f9;
   --bg-warm: #fbf8f1;
@@ -66,7 +66,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.25; }
 .brand-text strong { font-size: 18px; letter-spacing: 0.3px; color: #fff; }
-.brand-text small { font-size: 11.5px; color: #aebdcb; text-transform: uppercase; letter-spacing: 1.4px; }
+.brand-text small { font-size: 11.5px; color: #c2ced8; text-transform: uppercase; letter-spacing: 1.4px; }
 
 .main-nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
 .main-nav a {
@@ -134,7 +134,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
 
 .split { display: grid; grid-template-columns: 1.2fr 1fr; gap: 56px; align-items: start; }
 .split p + p { margin-top: 14px; }
-.split p { color: #3c4852; }
+.split p { color: #2e3943; }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -160,7 +160,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
 
 /* Lists */
 .tick-list { list-style: none; margin: 18px 0 28px; }
-.tick-list li { padding-left: 32px; position: relative; margin-bottom: 12px; color: #35424c; }
+.tick-list li { padding-left: 32px; position: relative; margin-bottom: 12px; color: #2c3741; }
 .tick-list li::before {
   content: "\2713"; position: absolute; left: 0; top: 0; color: var(--gold-dark);
   font-weight: bold; font-size: 18px;
@@ -214,7 +214,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
   padding: 30px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 14px;
 }
 .testimonial .stars { color: var(--gold); font-size: 17px; letter-spacing: 2px; }
-.testimonial blockquote { font-size: 15.5px; color: #3c4852; font-style: italic; line-height: 1.7; }
+.testimonial blockquote { font-size: 15.5px; color: #2e3943; font-style: italic; line-height: 1.7; }
 .testimonial .who { font-size: 14px; color: var(--muted); }
 .testimonial .who strong { color: var(--navy); display: block; font-size: 15px; }
 
@@ -239,7 +239,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
   background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 18px 22px; display: flex; flex-direction: column; gap: 4px;
 }
-.detail-item span { font-size: 12.5px; text-transform: uppercase; letter-spacing: 1.2px; color: #4d5a66; font-weight: 600; }
+.detail-item span { font-size: 12.5px; text-transform: uppercase; letter-spacing: 1.2px; color: #3c4853; font-weight: 600; }
 .detail-item strong { font-size: 16.5px; color: var(--navy-dark); }
 .details-stack { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
 
@@ -299,16 +299,16 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--navy); line-height:
 .coming-soon .btn { margin-top: 10px; }
 
 /* Footer */
-.site-footer { background: var(--navy-deep); color: #a9bac7; padding: 60px 0 26px; }
+.site-footer { background: var(--navy-deep); color: #c6d3dd; padding: 60px 0 26px; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; margin-bottom: 36px; }
 .site-footer h4 { color: #fff; margin-bottom: 14px; font-size: 16px; }
-.site-footer p { font-size: 14.5px; margin-bottom: 6px; color: #a9bac7; }
+.site-footer p { font-size: 14.5px; margin-bottom: 6px; color: #c6d3dd; }
 .footer-links { list-style: none; }
 .footer-links li { margin-bottom: 9px; }
-.footer-links a { color: #a9bac7; text-decoration: none; font-size: 14.5px; }
+.footer-links a { color: #c6d3dd; text-decoration: none; font-size: 14.5px; }
 .footer-links a:hover { color: var(--gold); }
 .footer-bottom { border-top: 1px solid var(--line-dark); padding-top: 20px; text-align: center; }
-.footer-bottom p { font-size: 13.5px; margin: 0; color: #8ba0b1; }
+.footer-bottom p { font-size: 13.5px; margin: 0; color: #a8bac7; }
 
 /* Responsive */
 @media (max-width: 920px) {
